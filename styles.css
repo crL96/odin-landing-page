@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header {
@@ -48,6 +48,7 @@ a {
     justify-content: space-between;
     padding: 70px 15%;
     gap: 100px;
+    align-items: center;
 }
 
 .image-content {
@@ -64,7 +65,7 @@ a {
 .button {
     align-self: flex-start;
     background-color: #3882F6;
-    color: #e5e7eb;
+    color: white;
     padding: 8px 24px;
     font-weight: 700;
     border-radius: 8px;
@@ -120,4 +121,42 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.cta-section {
+    padding: 100px 15%;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    border-radius: 20px;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-button {
+    border-color: white;
+    align-self: auto;
+}
+
+.cta-title, .cta-text {
+    color: white;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
 }
