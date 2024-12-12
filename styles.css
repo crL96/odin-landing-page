@@ -52,8 +52,9 @@ a {
 }
 
 .image-content {
-    width: 500px;
-    height: auto;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .left-content {
@@ -87,15 +88,17 @@ a {
 
 .card {
     text-align: center;
-    width: 200px;
+    width: 250px;
 }
 
+
 .card-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: black;
     border-radius: 10px;
     margin-bottom: 8px;
+    object-fit: cover;
 }
 
 .quote-section {
